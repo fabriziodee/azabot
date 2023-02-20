@@ -25,7 +25,7 @@ let handler = async (m, { conn, text, participants }) => {
 
 handler.menugroup = ['kick']
 handler.tagsgroup = ['group']
-handler.command = /^(kick|tendang)$/i
+handler.command = /^(kick|via)$/i
 
 handler.admin = true
 handler.botAdmin = true
